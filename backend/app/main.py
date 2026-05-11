@@ -15,7 +15,9 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173", 
         "http://127.0.0.1:5173", 
-        "http://localhost:8000"
+        "http://localhost:8000",
+        "https://ai-finance-coach-6vooiixa7-siddhartha-reddys-projects-3311eaff.vercel.app",
+        "https://ai-finance-coach-ten.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
