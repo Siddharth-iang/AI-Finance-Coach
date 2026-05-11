@@ -13,9 +13,9 @@ import os
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
-        "https://ai-finance-coach-ten.vercel.app",
-        os.getenv("FRONTEND_URL", "https://ai-finance-coach-ten.vercel.app")
+        "http://localhost:5173", 
+        "http://127.0.0.1:5173", 
+        "http://localhost:8000"
     ],
     allow_credentials=True,
     allow_methods=["*"],
